@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Index</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="holder.js"></script>
+
+    <style>
+        body {
+            background-image: url('pic/bg-2.jpg');
+            background-position: center;
+            /*background-size: cover;*/
+            background-size: contain;
+        }
+        .jumbotron{
+            background-image: url("pic/dota2.jpg");
+            background-size: contain;
+            /*background-repeat: no-repeat;*/
+        }
+    </style>
+</head>
+
+<body>
+
+    <!--navigation bar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Dropdown
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#">Disabled</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+
+    <!--Jumbotron part-->
+    <div class="jumbotron text-center">
+      <h1 class="display-4 text-light">This is DOTA!</h1>
+      <!--<p class="lead text-light">The International Battle Pass has arrived. Prepare to dig into the-->
+          <!--heart of the Dota summer season and unearth a rich vein of new and classic features,-->
+          <!--new game modes, and heaps of exclusive rewards. As is tradition, 25% of all Battle Pass-->
+          <!--sales go directly to The International prize pool.</p>-->
+      <!--<hr class="my-4">-->
+      <p class="lead text-light text-muted">welcome to my website.</p>
+      <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+    </div>
+
+    <!--Album Part-->
+    <div class="album py-5">
+        <div class="container">
+        <div class="row">
+            <div class="col-4">
+                <div class="card mb-4">
+                    <img class="card-img-top" src="pic/jugg.jpg" alt="Card image cap">
+                    <div class="card-body">
+                    <h5 class="card-title">Jugg</h5>
+                    <p class="card-text">This is an introduction about Jugg.</p>
+                    <button class="btn btn-outline-secondary" type="button" data-toggle="modal" data-target="#juggModal">View</button>
+
+                    <div class="modal fade" id="juggModal" aria-labelledby="juggModalLabel">
+                      <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="juggModalLabel">Jugg</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+                          </div>
+                          <div class="modal-body">
+                              No one has ever seen the face hidden beneath the mask of Yurnero the Juggernaut.
+                              It is only speculation that he even has one. For defying a corrupt lord, Yurnero was exiled from the ancient
+                              Isle of Masks--a punishment that saved his life. The isle soon after vanished beneath the waves in a night of vengeful magic.
+                              He alone remains to carry on the Isle's long Juggernaut tradition, one of ritual and swordplay.
+                              The last practitioner of the art, Yurnero's confidence and courage are the result of endless practice;
+                              his inventive bladework proves that he has never stopped challenging himself. Still, his motives are as unreadable as
+                              his expression. For a hero who has lost everything twice over, he fights as if victory is a foregone conclusion.
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            <!--<button type="button" class="btn btn-primary">Save changes</button>-->
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <button class="btn btn-outline-secondary" type="button">Collection</button>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-4">
+                <div class="card mb-4">
+                    <img class="card-img-top" src="pic/sniper.jpg" alt="Card image cap">
+                    <div class="card-body">
+                    <h5 class="card-title">Sniper</h5>
+                    <p class="card-text">This is an introduction about Sniper</p>
+                    <button class="btn btn-outline-secondary" type="button" data-toggle="modal" data-target="#sniperModal">View</button>
+
+                    <div class="modal fade" id="sniperModal" aria-labelledby="sniperModalLabel">
+                      <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="sniperModalLabel">Sniper</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+                          </div>
+                          <div class="modal-body">
+                              Kardel Sharpeye was born deep in the mountainous valleys of Knollen where, since time immemorial, the folk have survived
+                              by hunting the strange, cliff-dwelling steepstalkers above their village—killing them from a distance and collecting
+                              their carcasses where they fell. Sharpeye was among the best of these strange folk for whom projectile weapons are but
+                              another appendage, and to shoot is as natural as to touch.
+
+                              On his day of summoning, when he was to gain full standing in his village, Sharpeye took the ancient test: a single shot
+                              from the valley floor to strike a beast down from the cliffs. To miss was to be dishonored. With his entire village
+                              standing vigil, Sharpeye took his shot. A steepstalker fell; the crowd cheered. But when the carcass was collected, the
+                              village grew silent, for the elders found that the bullet had pierced its glittering central eye then fallen to be clenched
+                              in the steepstalker's mandibles. This ominous sign was the literal opening of a dark prophecy, foretelling both greatness
+                              and exile for the gunman who made such a shot. Sharpeye the Sniper was thus, by his own skill, condemned to make his way
+                              apart from his people—and unwelcome back among them until he has fulfilled the remainder of the prophecy by attaining
+                              legendary stature on a field of battle.
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            <!--<button type="button" class="btn btn-primary">Save changes</button>-->
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <button class="btn btn-outline-secondary" type="button">Collection</button>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-4">
+                <div class="card mb-4">
+                    <img class="card-img-top" src="pic/crystal_maiden.jpg" alt="Card image cap">
+                    <div class="card-body">
+                    <h5 class="card-title">Crystal Maiden</h5>
+                    <p class="card-text">This is an introduction about Crystal Maiden.</p>
+                    <button class="btn btn-outline-secondary" type="button">View</button>
+                    <button class="btn btn-outline-secondary" type="button">Collection</button>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-4">
+                <div class="card mb-4">
+                    <img class="card-img-top" src="pic/Lina.jpg" alt="Card image cap">
+                    <div class="card-body">
+                    <h5 class="card-title">Lina</h5>
+                    <p class="card-text">This is an introduction about Lina.</p>
+                    <button class="btn btn-outline-secondary" type="button">View</button>
+                    <button class="btn btn-outline-secondary" type="button">Collection</button>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-4">
+                <div class="card mb-4">
+                    <img class="card-img-top" src="pic/kael.png" alt="Card image cap">
+                    <div class="card-body">
+                    <h5 class="card-title">Kael</h5>
+                    <p class="card-text">This is an introduction about Kael.</p>
+                    <button class="btn btn-outline-secondary" type="button">View</button>
+                    <button class="btn btn-outline-secondary" type="button">Collection</button>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-4">
+                <div class="card mb-4">
+                    <img class="card-img-top" src="pic/zeus.jpg" alt="Card image cap">
+                    <div class="card-body">
+                    <h5 class="card-title">Zeus</h5>
+                    <p class="card-text">This is an introduction about Zeus.</p>
+                    <button class="btn btn-outline-secondary" type="button">View</button>
+                    <button class="btn btn-outline-secondary" type="button">Collection</button>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        </div>
+    </div>
+</body>
+</html>

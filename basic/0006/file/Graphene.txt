@@ -1,0 +1,106 @@
+Definition
+"Graphene" is a combination of "graphite" and the suffix -ene, named by Hanns-Peter Boehm and colleagues,[12] who produced and observed single-layer carbon foils in 1962.[7]
+
+Boehm et al. introduced the term graphene in 1986 to describe single sheets of graphite. Graphene can be considered an "infinite alternant" (only six-member carbon ring) polycyclic aromatic hydrocarbon.[13]
+
+The International Union of Pure and Applied Chemistry (IUPAC) notes: "previously, descriptions such as graphite layers, carbon layers, or carbon sheets have been used for the term graphene...it is incorrect to use for a single layer a term which includes the term graphite, which would imply a three-dimensional structure. The term graphene should be used only when the reactions, structural relations or other properties of individual layers are discussed."[4]
+
+Geim defined "isolated or free-standing graphene" as "graphene is a single atomic plane of graphite, which – and this is essential – is sufficiently isolated from its environment to be considered free-standing."[14] This definition is narrower than the IUPAC definition and refers to cloven, transferred and suspended graphene.[citation needed] Other forms such as graphene grown on various metals, can become free-standing if, for example, suspended or transferred [15][16] to silicon dioxide (SiO
+2) or silicon carbide.[17]
+
+Structure
+
+Scanning probe microscopy image of graphene
+Graphene is a crystalline allotrope of carbon with 2-dimensional properties. Its carbon atoms are densely packed in a regular atomic-scale chicken wire (hexagonal) pattern.[18]
+
+Each atom has four bonds: one σ bond with each of its three neighbors and one π-bond that is oriented out of plane. The atoms are about 1.42 Å apart.[18]
+
+Graphene's hexagonal lattice can be regarded as two interleaving triangular lattices. This perspective was successfully used to calculate the band structure for a single graphite layer using a tight-binding approximation.[18]
+
+Graphene's stability is due to its tightly packed carbon atoms and a sp2 orbital hybridization – a combination of orbitals s, px and py that constitute the σ-bond. The final pz electron makes up the π-bond. The π-bonds hybridize together to form the π-band and π∗-bands. These bands are responsible for most of graphene's notable electronic properties, via the half-filled band that permits free-moving electrons.[18]
+
+Graphene sheets in solid form usually show evidence in diffraction for graphite's (002) layering. This is true of some single-walled nanostructures.[19] However, unlayered graphene with only (hk0) rings has been found in the core of presolar graphite onions.[20] TEM studies show faceting at defects in flat graphene sheets[21] and suggest a role for two-dimensional crystallization from a melt.
+
+Graphene can self-repair holes in its sheets, when exposed to molecules containing carbon, such as hydrocarbons. Bombarded with pure carbon atoms, the atoms perfectly align into hexagons, completely filling the holes.[22][23]
+
+The atomic structure of isolated, single-layer graphene was studied by TEM on sheets of graphene suspended between bars of a metallic grid.[24] Electron diffraction patterns showed the expected honeycomb lattice. Suspended graphene showed "rippling" of the flat sheet, with amplitude of about one nanometer. These ripples may be intrinsic to the material as a result of the instability of two-dimensional crystals,[25][26][27] or may originate from the ubiquitous dirt seen in all TEM images of graphene. Atomic resolution real-space images of isolated, single-layer graphene on SiO
+2 substrates are available[28] via scanning tunneling microscopy (STM). Photoresist residue, which must be removed to obtain atomic-resolution images, may be the "adsorbates" observed in TEM images, and may explain the observed rippling. Rippling on SiO
+2 is caused by conformation of graphene to the underlying SiO
+2 and is not intrinsic.[28]
+
+Stability
+Ab initio calculations show that a graphene sheet is thermodynamically unstable if its size is less than about 20 nm ("graphene is the least stable structure until about 6000 atoms") and becomes the most stable fullerene (as within graphite) only for molecules larger than 24,000 atoms.[29]
+
+Analogs
+Analogs[30] (also referred to as "artificial graphene") are two-dimensional systems that exhibit similar properties to graphene. Analogs can be systems in which the physics is easier to observe and to manipulate. In those systems, electrons are not always the chosen particles—they might be optical photons,[31] microwave photons,[32] plasmons,[33] microcavity polaritons[34] or even atoms.[35] Also, the honeycomb structure in which those particles evolve can be of a different nature than carbon atoms in graphene. It can be, respectively, a photonic crystal, an array of metallic rods, metallic nanoparticles, a lattice of coupled microcavities or an optical lattice.
+
+Properties
+Graphene has a theoretical specific surface area (SSA) of 2630 m2/g. This is much larger than that reported to date for carbon black (typically smaller than 900 m2/g) or for carbon nanotubes (CNTs), from ≈100 to 1000 m2/g and is similar to activated carbon.[36]
+
+Electronic
+
+GNR band structure for zig-zag orientation. Tightbinding calculations show that zig-zag orientation is always metallic.
+Main article: Electronic properties of graphene
+
+GNR band structure for armchair orientation. Tightbinding calculations show that armchair orientation can be semiconducting or metallic depending on width (chirality).
+Graphene is a zero-gap semiconductor, because its conduction and valence bands meet at the Dirac points, which are six locations in momentum space, on the edge of the Brillouin zone, divided into two non-equivalent sets of three points. The two sets are labeled K and K'. The sets give graphene a valley degeneracy of gv = 2. By contrast, for traditional semiconductors the primary point of interest is generally Γ, where momentum is zero.[18] However, if the in-plane direction is confined, in which case it is referred to as a nanoribbon, its electronic structure is different. If it is "zig-zag", the bandgap is zero. If it is "armchair", the bandgap is non-zero (see figure).
+
+Graphene displays remarkable electron mobility at room temperature, with reported values in excess of 15000 cm2⋅V−1⋅s−1.[25] Hole and electron mobilities were expected to be nearly identical.[37] The mobility is nearly independent of temperature between 10 K and 100 K,[38][39][40] which implies that the dominant scattering mechanism is defect scattering. Scattering by graphene's acoustic phonons intrinsically limits room temperature mobility to 200000 cm2⋅V−1⋅s−1 at a carrier density of 1012 cm−2,[40][41] 10×106 times greater than copper.[42]
+
+The corresponding resistivity of graphene sheets would be 10−6 Ω⋅cm. This is less than the resistivity of silver, the lowest otherwise known at room temperature.[43] However, on SiO
+2 substrates, scattering of electrons by optical phonons of the substrate is a larger effect than scattering by graphene’s own phonons. This limits mobility to 40000 cm2⋅V−1⋅s−1.[40] Charge transport is affected by adsorption of contaminants such as water and oxygen molecules. This leads to non-repetitive and large hysteresis I-V characteristics.
+
+Electrons propagating through graphene's honeycomb lattice effectively lose their mass, producing quasi-particles that are described by a 2D analogue of the Dirac equation rather than the Schrödinger equation for spin-​1⁄2 particles.[44][37]
+
+Superconductivity has been observed in twisted bilayer graphene.
+
+Optical
+
+Photograph of graphene in transmitted light. This one-atom-thick crystal can be seen with the naked eye because it absorbs approximately 2.6% of green light,[45] and 2.3% of red light.[46]
+Graphene's unique optical properties produce an unexpectedly high opacity for an atomic monolayer in vacuum, absorbing πα ≈ 2.3% of red light, where α is the fine-structure constant.[47] This is a consequence of the "unusual low-energy electronic structure of monolayer graphene that features electron and hole conical bands meeting each other at the Dirac point... [which] is qualitatively different from more common quadratic massive bands."[46] Based on the Slonczewski–Weiss–McClure (SWMcC) band model of graphite, the interatomic distance, hopping value and frequency cancel when optical conductance is calculated using Fresnel equations in the thin-film limit.
+
+Although confirmed experimentally, the measurement is not precise enough to improve on other techniques for determining the fine-structure constant.[48]
+
+Multi-Parametric Surface Plasmon Resonance was used to characterize both thickness and refractive index of chemical-vapor-deposition (CVD)-grown graphene films. The measured refractive index and extinction coefficient values at 670 nm wavelength are 3.135 and 0.897, respectively. The thickness was determined as 3.7 Å from a 0.5 mm area, which agrees with 3.35 Å reported for layer-to-layer carbon atom distance of graphite crystals.[49]
+
+The method can be used for real-time label-free interactions of graphene with organic and inorganic substances. The existence of unidirectional surface plasmons in the nonreciprocal graphene-based gyrotropic interfaces has been demonstrated theoretically. By efficiently controlling the chemical potential of graphene, the unidirectional working frequency can be continuously tunable from THz to near-infrared and even visible.[50] Particularly, the unidirectional frequency bandwidth can be 1–2 orders of magnitude larger than that in metal under the same magnetic field, which arises from the superiority of extremely small effective electron mass in graphene.
+
+Graphene's band gap can be tuned from 0 to 0.25 eV (about 5 micrometre wavelength) by applying voltage to a dual-gate bilayer graphene field-effect transistor (FET) at room temperature.[51] The optical response of graphene nanoribbons is tunable into the terahertz regime by an applied magnetic field.[52] Graphene/graphene oxide systems exhibit electrochromic behavior, allowing tuning of both linear and ultrafast optical properties.[53]
+
+A graphene-based Bragg grating (one-dimensional photonic crystal) demonstrated its capability for excitation of surface electromagnetic waves in the periodic structure using a 633 nm He–Ne laser as the light source.[54]
+
+Saturable absorption
+Such unique absorption could become saturated when the input optical intensity is above a threshold value. This nonlinear optical behavior is termed saturable absorption and the threshold value is called the saturation fluence. Graphene can be saturated readily under strong excitation over the visible to near-infrared region, due to the universal optical absorption and zero band gap. This has relevance for the mode locking of fiber lasers, where fullband mode locking has been achieved by a graphene-based saturable absorber. Due to this special property, graphene has wide application in ultrafast photonics. The optical response of graphene/graphene oxide layers can be tuned electrically.[53][55] Saturable absorption in graphene could occur at the Microwave and Terahertz bands, owing to its wideband optical absorption property. The microwave saturable absorption in graphene demonstrates the possibility of graphene microwave and terahertz photonics devices, such as a microwave saturable absorber, modulator, polarizer, microwave signal processing and broad-band wireless access networks.[56]
+
+Nonlinear Kerr effect
+Under more intensive laser illumination, graphene could possess a nonlinear phase shift due to the optical nonlinear Kerr effect. Based on a typical open and close aperture z-scan measurement, graphene possesses a nonlinear Kerr coefficient of 10−7 cm2⋅W−1, almost nine orders of magnitude larger than that of bulk dielectrics.[57] This suggests that graphene may be a powerful nonlinear Kerr medium, with the possibility of observing a variety of nonlinear effects, the most important of which is the soliton.[58] A 2016 study has shown that the nonlinear refractive index of graphene is negative.[59] Thermal lens spectroscopy can be used for measuring the thermo-optic coefficient of graphene and inspecting its thermal nonlinearity.[60]
+
+Quantum dots
+Several techniques can prepare nanostructured graphene, e.g., graphene quantum dots (GQDs); these techniques mainly include electron beam lithography, chemical synthesis, electrochemical preparation, graphene oxide (GO) reduction, C60 catalytic transformation, the microwave assisted hydrothermal method (MAH),[61][62] the Soft-Template method,[63] the hydrothermal method,[64][65][66] and the ultrasonic exfoliation method.[67]
+
+Thermal
+Thermal conductivity
+Thermal transport in graphene is an active area of research which has attracted attention because of the potential for thermal management applications. Early measurements of the thermal conductivity of suspended graphene reported an exceptionally large thermal conductivity of approximately 5300 W⋅m−1⋅K−1,[68] compared with the thermal conductivity of pyrolytic graphite of approximately 2000 W⋅m−1⋅K−1 at room temperature.[69] However, later studies have questioned whether this ultrahigh value was overestimated, and instead measured thermal conductivities between 1500–2500 W⋅m−1⋅K−1 for suspended single layer graphene.[70][71][72][73][74] The large range can be attributed to large measurement uncertainties as well as variations in the graphene quality and processing conditions. In addition, when single-layer graphene is supported on an amorphous material, the thermal conductivity is reduced to about 500–600 W⋅m−1⋅K−1 at room temperature as a result of scattering of graphene lattice waves by the substrate,[75][76] and can be even lower for few layer graphene encased in amorphous oxide.[77] Likewise, polymeric residue can contribute to a similar decrease for suspended graphene to approximately 500–600 W⋅m−1⋅K−1for bilayer graphene.[78]
+
+It has been suggested that the isotopic composition, the ratio of 12C to 13C, has a significant impact on thermal conductivity. For example, isotopically pure 12C graphene has higher thermal conductivity than either a 50:50 isotope ratio or the naturally occurring 99:1 ratio.[79] It can be shown by using the Wiedemann–Franz law, that the thermal conduction is phonon-dominated.[68] However, for a gated graphene strip, an applied gate bias causing a Fermi energy shift much larger than kBT can cause the electronic contribution to increase and dominate over the phonon contribution at low temperatures. The ballistic thermal conductance of graphene is isotropic.[80][81]
+
+Potential for this high conductivity can be seen by considering graphite, a 3D version of graphene that has basal plane thermal conductivity of over a 1000 W⋅m−1⋅K−1 (comparable to diamond). In graphite, the c-axis (out of plane) thermal conductivity is over a factor of ≈100 smaller due to the weak binding forces between basal planes as well as the larger lattice spacing.[82] In addition, the ballistic thermal conductance of graphene gives the lower limit of the ballistic thermal conductances, per unit circumference and length of carbon nanotubes.[83]
+
+Despite its 2-D nature, graphene has 3 acoustic phonon modes. The two in-plane modes (LA, TA) have a linear dispersion relation, while the out of plane mode (ZA) has a quadratic dispersion relation. Due to this, the T2 dependent thermal conductivity contribution of the linear modes is dominated at low temperatures by the T1.5 contribution of the out-of-plane mode.[83] Some graphene phonon bands display negative Grüneisen parameters (GPs).[84] At low temperatures (where most optical modes with positive GPs are still not excited) the contribution from the negative GPs will be dominant and thermal expansion coefficient (which is directly proportional to GPs) negative. The lowest negative GPs correspond to the lowest transverse acoustic ZA modes. Phonon frequencies for such modes increase with the in-plane lattice parameter since atoms in the layer upon stretching will be less free to move in the z direction. This is similar to the behavior of a stretched string that has vibrations of smaller amplitude and higher frequency. This phenomenon, named "membrane effect", was predicted by Lifshitz in 1952.[85]
+
+Melting point
+A prediction that was published in 2015 suggested a melting point of ≈4125 K.[86] Recent[when?] and more sophisticated modelling has increased this temperature to at least 5000 K. At 6000 K (the sun's surface having an effective temperature of 5,777 K)[87] graphene melts into an agglomeration of loosely coupled doubled bonded chains, before becoming a gas.[88]
+
+Mechanical
+The carbon–carbon bond length in graphene is about 0.142 nanometers.[89] Graphene sheets stack to form graphite with an interplanar spacing of 0.335 nm.[citation needed]
+
+Graphene is the strongest material ever tested,[90] with an intrinsic tensile strength of 130.5 GPa and a Young's modulus of 1 TPa (150000000 psi).[90] The Nobel announcement gave the strength as 42 N/m; the mass of 1 m2 as 0.77 mg, and the electrical resistance of a square as 31 Ω.[91]
+
+Large-angle-bent graphene monolayer has been achieved with negligible strain, showing mechanical robustness of the two-dimensional carbon nanostructure. Even with extreme deformation, excellent carrier mobility in monolayer graphene can be preserved.[92]
+
+The spring constant of suspended graphene sheets has been measured using an atomic force microscope (AFM).[90][93] Graphene sheets were suspended over SiO
+2 cavities where an atomic force microscope (AFM) tip was used to apply a stress to the sheet to test its mechanical properties. Its spring constant was in the range 1–5 N/m and the stiffness was 0.5 TPa, which differs from that of bulk graphite. These intrinsic properties could lead to applications such as NEMS as pressure sensors and resonators.[94] Due to its large surface energy and out of plane ductility, flat graphene sheets are unstable with respect to scrolling, i.e. bending into a cylindrical shape, which is its lower-energy state.[95]
+
+As is true of all materials, regions of graphene are subject to thermal and quantum fluctuations in relative displacement. Although the amplitude of these fluctuations is bounded in 3D structures (even in the limit of infinite size), the Mermin–Wagner theorem shows that the amplitude of long-wavelength fluctuations grows logarithmically with the scale of a 2D structure and would therefore be unbounded in structures of infinite size.[96][97] Local deformation and elastic strain are negligibly affected by this long-range divergence in relative displacement. It is believed that a sufficiently large 2D structure, in the absence of applied lateral tension, will bend and crumple to form a fluctuating 3D structure. Ripples have been observed in suspended layers of graphene.[24] It has been proposed that the ripples are caused by thermal fluctuations in the material. As a consequence of these dynamical deformations, it is debatable whether graphene is truly a 2D structure.[25][26][27][98] In 2014 it was shown that these ripples, if amplified through the introduction of vacancy defects, can impart a negative Poisson's ratio into graphene, resulting in the thinnest auxetic material known.[99]
+
+Graphene nanosheets can be incorporated into a nickel matrix through a plating process to form Ni-graphene composites on a target substrate. The enhancement in mechanical properties of the composites is attributed to the high interaction between Ni and graphene and the prevention of the dislocation sliding in the Ni matrix by the graphene.[100]

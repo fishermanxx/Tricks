@@ -1,0 +1,159 @@
+1. 安装Mysql
+	1). 下载MySQL Community Server，安装server以及workbench还有制定connector即可
+	2). 将Mysql安装目录下的bin路径添加入环境变量，方便terminal调用命令(C:\Program Files\MySQL\MySQL server 5.7\bin)
+	3). (命令行输入,输入密码进入mysql)mysql -u root -p 
+	4). create database if not exists TEST;(创建数据库)
+	5). show databases;   show tables; drop database if exists test;
+	6). CREATE TABLE table_name (column_name column_type); DROP TABLE table_name ;
+tutorials_tbl(
+   tutorial_id INT NOT NULL AUTO_INCREMENT,
+   tutorial_title VARCHAR(100) NOT NULL,
+   tutorial_author VARCHAR(40) NOT NULL,
+   submission_date DATE,
+   PRIMARY KEY ( tutorial_id )
+);
+	7). insert [into] 表名 [(列名1, 列名2, 列名3, ...)] values (值1, 值2, 值3, ...);
+	8). select 列名称 from 表名称 [查询条件];
+	9). select 列名称 from 表名称 where 条件;(select * from students where age > 21;)
+	10). delete from 表名称 where 删除条件;
+	11). alter table 表名 add 列名 列数据类型 [after 插入位置]; 添加列
+	12). alter table 表名 change 列名称 列新名称 新数据类型; 修改列
+	13). alter table 表名 drop 列名称; 删除列
+	14). alter table 表名 rename 新表名; 重命名表
+	15). drop table 表名; 删除表， drop database 数据库名; 删除数据库
+	
+	16). python 连接 Mysql(mysql.connector or PyMySQL or MySQLdb)
+	
+
+#!/usr/bin/env python
+# coding=utf-8
+
+import mysql.connector
+
+def connectdb():
+    print('连接到mysql服务器...')
+    # 打开数据库连接
+    # 用户名:hp, 密码:Hp12345.,用户名和密码需要改成你自己的mysql用户名和密码，并且要创建数据库TESTDB，并在TESTDB数据库中创建好表Student
+    db = mysql.connector.connect(user="hp", passwd="Hp12345.", database="TESTDB", use_unicode=True)
+    print('连接上了!')
+    return db
+
+def createtable(db):
+    # 使用cursor()方法获取操作游标 
+    cursor = db.cursor()
+
+    # 如果存在表Sutdent先删除
+    cursor.execute("DROP TABLE IF EXISTS Student")
+    sql = """CREATE TABLE Student (
+            ID CHAR(10) NOT NULL,
+            Name CHAR(8),
+            Grade INT )"""
+
+    # 创建Sutdent表
+    cursor.execute(sql)
+
+def insertdb(db):
+    # 使用cursor()方法获取操作游标 
+    cursor = db.cursor()
+
+    # SQL 插入语句
+    sql = """INSERT INTO Student
+         VALUES ('001', 'CZQ', 70),
+                ('002', 'LHQ', 80),
+                ('003', 'MQ', 90),
+                ('004', 'WH', 80),
+                ('005', 'HP', 70),
+                ('006', 'YF', 66),
+                ('007', 'TEST', 100)"""
+
+    #sql = "INSERT INTO Student(ID, Name, Grade) \
+    #    VALUES ('%s', '%s', '%d')" % \
+    #    ('001', 'HP', 60)
+    try:
+        # 执行sql语句
+        cursor.execute(sql)
+        # 提交到数据库执行
+        db.commit()
+    except:
+        # Rollback in case there is any error
+        print '插入数据失败!'
+        db.rollback()
+
+def querydb(db):
+    # 使用cursor()方法获取操作游标 
+    cursor = db.cursor()
+
+    # SQL 查询语句
+    #sql = "SELECT * FROM Student \
+    #    WHERE Grade > '%d'" % (80)
+    sql = "SELECT * FROM Student"
+    try:
+        # 执行SQL语句
+        cursor.execute(sql)
+        # 获取所有记录列表
+        results = cursor.fetchall()
+        for row in results:
+            ID = row[0]
+            Name = row[1]
+            Grade = row[2]
+            # 打印结果
+            print "ID: %s, Name: %s, Grade: %d" % \
+                (ID, Name, Grade)
+    except:
+        print "Error: unable to fecth data"
+
+def deletedb(db):
+    # 使用cursor()方法获取操作游标 
+    cursor = db.cursor()
+
+    # SQL 删除语句
+    sql = "DELETE FROM Student WHERE Grade = '%d'" % (100)
+
+    try:
+       # 执行SQL语句
+       cursor.execute(sql)
+       # 提交修改
+       db.commit()
+    except:
+        print '删除数据失败!'
+        # 发生错误时回滚
+        db.rollback()
+
+def updatedb(db):
+    # 使用cursor()方法获取操作游标 
+    cursor = db.cursor()
+
+    # SQL 更新语句
+    sql = "UPDATE Student SET Grade = Grade + 3 WHERE ID = '%s'" % ('003')
+
+    try:
+        # 执行SQL语句
+        cursor.execute(sql)
+        # 提交到数据库执行
+        db.commit()
+    except:
+        print '更新数据失败!'
+        # 发生错误时回滚
+        db.rollback()
+
+def closedb(db):
+    db.close()
+
+def main():
+    db = connectdb()    # 连接MySQL数据库
+
+    createtable(db)     # 创建表
+    insertdb(db)        # 插入数据
+    print '\n插入数据后:'
+    querydb(db) 
+    deletedb(db)        # 删除数据
+    print '\n删除数据后:'
+    querydb(db)
+    updatedb(db)        # 更新数据
+    print '\n更新数据后:'
+    querydb(db)
+
+    closedb(db)         # 关闭数据库
+
+if __name__ == '__main__':
+    main()

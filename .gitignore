@@ -1,0 +1,15 @@
+## 忽略所有文件
+## *
+
+
+.DS_Store
+*.csv
+*.pptx
+*.zip
+*.iob
+*.pdf
+
+## 不忽略目录
+###!*/
+###
+## 不忽略文件.gitignore和*.py
